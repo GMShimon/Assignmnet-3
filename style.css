@@ -1,0 +1,64 @@
+/* google font link import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+/* global class */
+body{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+.button{
+    background-color:rgb(231,111,81);
+    color: white;
+}
+.button:hover{
+    background-image: linear-gradient(red,black);
+    color: white;
+}
+.header{
+    background-color: rgb(38,70,83);  
+}
+a{
+    text-decoration:none;
+    color: white;
+}
+.button:hover a{
+    color: white;
+}
+/*-------------------------- 
+    featured bikes style 
+--------------------------*/
+.best-bike{
+    color:rgb(231,111,81);
+    font-weight:bold;
+}
+/* featured images grayscale */
+.featured-img{
+    filter:grayscale(1);
+}
+/*-------------------------- 
+    Happy clients says 
+---------------------------*/
+
+/* rating stars */
+.filled-star,.unfilled-star{
+    color:rgb(231,111,81);
+}
+/*----------------------------
+     footer anchore style 
+-----------------------------*/
+.footer-a{
+    text-decoration: none;
+    margin-left: 15px;
+    padding:5px;
+    border-radius:5px;
+}
+.footer-a:hover{
+    background-color:olivedrab;
+    color: white;
+}
